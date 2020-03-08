@@ -1,0 +1,80 @@
+body {
+    font-family: 'Karla', sans-serif;
+    color: hsl(273, 4%, 51%);
+}
+
+h1 {
+    width: 350px;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+p {
+    color: hsl(273, 4%, 51%);
+}
+
+
+/* Top section */
+
+.navigation-bar {
+    padding: 8px 10% 14px;
+}
+
+.navigation-bar a {
+    font-weight: 700;
+    color: hsl(273, 4%, 51%);
+}
+
+.navigation-bar a:hover {
+    color: hsl(256, 26%, 20%);
+}
+
+#brand {
+    font-weight: 700;
+    color: hsl(256, 26%, 20%);
+}
+
+.col-lg-6 p {
+    width: 600px;
+    color: white;
+}
+
+.title-section {
+    position: relative;
+    padding: 0 10%;
+    background-color: hsl(256, 26%, 20%);
+}
+
+.title-text {
+    margin-top: 150px;
+}
+
+.title-text hr {
+    background-color: white;
+    width: 25%;
+    margin: 16px 2px 40px;
+}
+
+.title-img {
+    position: relative;
+    top: 150px;
+}
+
+.intro-right-pattern {
+    position: absolute;
+    bottom: 30%;
+    left: 70%;
+}
+
+.intro-left-pattern {
+    position: absolute;
+    top: 65%;
+    right: 89%;
+}
+
+.nav-item button {
+    border-radius: 0 !important;
+    border: 1.5px solid hsl(256, 26%, 20%);
+}
