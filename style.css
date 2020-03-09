@@ -11,6 +11,17 @@ h1 {
     font-size: 3rem;
 }
 
+h2 {
+    color: hsl(270, 9%, 17%);
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+h3 {
+    color: hsl(270, 9%, 17%);
+}
+
 p {
     color: hsl(273, 4%, 51%);
 }
@@ -42,6 +53,7 @@ p {
 }
 
 .title-section {
+    margin: 0;
     position: relative;
     padding: 0 10%;
     background-color: hsl(256, 26%, 20%);
@@ -60,21 +72,77 @@ p {
 .title-img {
     position: relative;
     top: 150px;
+    left: 30%;
 }
 
 .intro-right-pattern {
     position: absolute;
-    bottom: 30%;
-    left: 70%;
+    bottom: 8%;
+    left: 67%;
 }
 
 .intro-left-pattern {
     position: absolute;
     top: 65%;
-    right: 89%;
+    right: 90%;
 }
 
 .nav-item button {
     border-radius: 0 !important;
     border: 1.5px solid hsl(256, 26%, 20%);
+}
+
+
+/* Middle section */
+
+.mid {
+    padding: 15% 10% 5%;
+}
+
+.mid hr {
+    width: 10%;
+    margin: 16px 2px 40px;
+    background-color: hsl(216, 30%, 68%);
+}
+
+.how-work-item {
+    width: 25px;
+}
+
+.mid-h2 {
+    margin-bottom: 8%;
+}
+
+.mid-row {
+    margin-bottom: 10%;
+}
+
+.mid-bot {
+    margin: 0;
+    background-color: hsl(256, 26%, 20%);
+}
+
+.mid-bot h2 {
+    color: #fff;
+    width: 420px;
+}
+
+.mid-bot img {
+    position: relative;
+    left: 23.5%;
+}
+
+.how-we-work-title {
+    padding: 50px 100px 0 50px;
+}
+
+.how-we-work-btn {
+    z-index: 1;
+    position: relative;
+    left: 65%;
+    border-radius: 0 !important;
+}
+
+.how-we-work-btn:hover {
+    background-color: #fff;
 }
