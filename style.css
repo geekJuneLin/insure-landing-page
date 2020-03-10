@@ -146,3 +146,39 @@ p {
 .how-we-work-btn:hover {
     background-color: #fff;
 }
+
+
+/* Bottom section */
+
+.bot {
+    background-color: hsl(0, 0%, 98%);
+}
+
+.bot img {
+    position: absolute;
+}
+
+.bot-social-media {
+    padding: 3% 10% 8%;
+    position: relative;
+}
+
+.row a {
+    font-size: 1.05rem;
+    display: block;
+    margin: 10px 0;
+    color: hsl(270, 9%, 17%);
+}
+
+.row a:hover {
+    text-decoration: underline;
+    color: hsl(270, 9%, 17%);
+}
+
+.media-icon:hover {
+    color: hsl(270, 9%, 17%);
+}
+
+.media-block {
+    float: right;
+}
